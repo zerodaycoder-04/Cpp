@@ -6,6 +6,6 @@ int main()
     int a;
     cout<<"Enter an integer:";
     cin>>a;
-    cout<<((a<<1)==(a*2));
+    cout<<((a/4)==(a>>2));
     return 0;
 }

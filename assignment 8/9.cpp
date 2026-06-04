@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int a;
+    int n;
     cout<<"Enter an integer:";
-    cin>>a;
-    cout<<((a<<1)==(a*2));
+    cin>>n;
+    cout<<((n<<2)>(n*3));
     return 0;
 }
